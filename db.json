@@ -1,0 +1,21 @@
+{
+  "todos": [],
+  "category": [
+    {
+      "id": 1,
+      "name": "Category One"
+    },
+    {
+      "id": 2,
+      "name": "Category Two"
+    },
+    {
+      "id": 3,
+      "name": "Category Three"
+    },
+    {
+      "id": 4,
+      "name": "Category Four"
+    }
+  ]
+}

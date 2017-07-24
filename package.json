@@ -1,0 +1,50 @@
+{
+  "name": "reactjs-assignment",
+  "version": "1.0.0",
+  "description": "reactjs training assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node node_modules/json-server/bin/index ./db.json -p 3001",
+    "client": "webpack -p",
+    "client-dev": "webpack-dev-server --hot --progress --colors --inline",
+    "start": "npm run server & npm run client-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/hsit18/reactjs-assignment.git"
+  },
+  "author": "harpreet singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/hsit18/reactjs-assignment/issues"
+  },
+  "homepage": "https://gitlab.com/hsit18/reactjs-assignment#README",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "json-server": "^0.11.2",
+    "react": "^15.6.1",
+    "react-addons-test-utils": "^15.6.0",
+    "react-bootstrap": "^0.31.1",
+    "react-datepicker": "^0.52.0",
+    "react-dom": "^15.6.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.1",
+    "react-router-dom": "^4.1.2",
+    "react-router-redux": "^4.0.4",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.2.0",
+    "webpack-dev-middleware": "^1.11.0",
+    "webpack-dev-server": "^2.5.1",
+    "webpack-hot-middleware": "^2.18.2"
+  }
+}
