@@ -156,7 +156,7 @@ class TodoApp extends Component {
 								<td className="text-left">
 									<Link to={`/add-todo/${todo.id}`}><i className="fa fa-pencil-square-o" aria-hidden="true"></i></Link>
 									&nbsp;&nbsp;
-									<i onClick={this.refs.modal.open.bind(this, todo)} className="fa fa-trash-o" aria-hidden="true"></i>
+									<i onClick={this.refs.modal && this.refs.modal.open.bind(this, todo)} className="fa fa-trash-o" aria-hidden="true"></i>
 								</td>
 							</tr>
 					);
