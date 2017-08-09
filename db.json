@@ -1,5 +1,20 @@
 {
-  "todos": [],
+  "todos": [
+    {
+      "name": "test",
+      "categoryId": "2",
+      "dueDate": "2017-07-14",
+      "status": false,
+      "id": 1
+    },
+    {
+      "name": "test3",
+      "categoryId": "1",
+      "dueDate": "2017-07-26",
+      "status": false,
+      "id": 2
+    }
+  ],
   "category": [
     {
       "id": 1,

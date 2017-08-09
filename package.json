@@ -8,7 +8,8 @@
     "server": "node node_modules/json-server/bin/index ./db.json -p 3001",
     "client": "webpack -p",
     "client-dev": "webpack-dev-server --hot --progress --colors --inline",
-    "start": "npm run server & npm run client-dev"
+    "start": "concurrently \"npm run server\" \"npm run client-dev\""
+
   },
   "repository": {
     "type": "git",
@@ -46,5 +47,8 @@
     "webpack-dev-middleware": "^1.11.0",
     "webpack-dev-server": "^2.5.1",
     "webpack-hot-middleware": "^2.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
   }
 }
